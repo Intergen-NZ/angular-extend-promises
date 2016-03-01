@@ -1,0 +1,89 @@
+{
+  "requireCurlyBraces": [
+    "catch",
+    "do",
+    "finally",
+    "for",
+    "try",
+    "while"
+  ],
+  "requireSpaceAfterKeywords": [
+    "catch",
+    "do",
+    "else",
+    "for",
+    "if",
+    "switch",
+    "try",
+    "while"
+  ],
+  "disallowSpaceAfterKeywords": [
+    "default"
+  ],
+  "requireParenthesesAroundIIFE": true,
+  "requireSpacesInFunction": {
+    "beforeOpeningCurlyBrace": true
+  },
+  "disallowSpacesInFunction": {
+    "beforeOpeningRoundBrace": true
+  },
+  "disallowMultipleVarDecl": true,
+  "requireSpaceBeforeBlockStatements": true,
+  "disallowEmptyBlocks": true,
+  "disallowSpacesInsideParentheses": true,
+  "disallowSpacesInsideArrayBrackets": true,
+  "disallowSpacesInsideObjectBrackets": "all",
+  "disallowSpaceAfterObjectKeys": true,
+  "disallowQuotedKeysInObjects": "allButReserved",
+  "disallowSpaceAfterObjectKeys": true,
+  "requireCommaBeforeLineBreak": true,
+  "requireOperatorBeforeLineBreak": [
+    "?",
+    "+",
+    "-",
+    "/",
+    "%",
+    "*",
+    "=",
+    "==",
+    "!=",
+    "===",
+    "!==",
+    ">",
+    ">=",
+    "<",
+    "<=",
+    "&&",
+    "||",
+    ":"
+  ],
+  "requireSpacesInConditionalExpression": true,
+  "disallowSpaceAfterPrefixUnaryOperators": true,
+  "disallowSpaceBeforePostfixUnaryOperators": ["++", "--"],
+  "requireSpaceBeforeBinaryOperators": true,
+  "requireSpaceAfterBinaryOperators": true,
+  "requireBlocksOnNewline": true,
+  "disallowPaddingNewlinesInBlocks": true,
+  "disallowKeywords": ["with"],
+  "disallowMultipleLineStrings": true,
+  "disallowMultipleLineBreaks": true,
+  "validateLineBreaks": "LF",
+  "validateQuoteMarks": "'",
+  "disallowMixedSpacesAndTabs": true,
+  "disallowTrailingWhitespace": true,
+  "disallowTrailingComma": true,
+  "requireKeywordsOnNewLine": [
+    "catch",
+    "else",
+    "finally"
+  ],
+  "requireLineFeedAtFileEnd": true,
+  "maximumLineLength": 120,
+  "requireCapitalizedConstructors": true,
+  "requireDotNotation": true,
+  "safeContextKeyword": ["self"],
+  "excludeFiles": ["lib/bundle/**"],
+  "disallowNewlineBeforeBlockStatements": true,
+  "requireSpaceAfterLineComment": true,
+  "validateQuoteMarks": {"mark": "'", "escape": true}
+}

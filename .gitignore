@@ -1,0 +1,7 @@
+node_modules/
+bower_components/
+*sublime-workspace
+*sublime-project
+dist
+tmp/*
+*.tmp

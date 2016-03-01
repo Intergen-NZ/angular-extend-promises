@@ -1,0 +1,68 @@
+{
+  "name": "angular-extend-promises",
+  "version": "1.0.0-rc.4",
+  "homepage": "https://bitbucket.org/lsystems/angular-extend-promises",
+  "author": "L.systems SARL",
+  "contributors": [
+    "Etienne Folio <etienne.folio@lsystems.fr>",
+    "Quentin Raynaud <quentin.raynaud@lsystems.fr>"
+  ],
+  "main": "dist/angular-extend-promises.min.js",
+  "description": "Extend $q to make it look a lot more like bluebird",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/lsystems/angular-extend-promises"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/lsystems/angular-extend-promises/issues"
+  },
+  "keywords": [
+    "angular",
+    "promises",
+    "promise",
+    "angularjs",
+    "ng",
+    "extend",
+    "extended",
+    "q",
+    "$q",
+    "defer",
+    "deferred",
+    "bluebird",
+    "async",
+    "util",
+    "utils",
+    "delay",
+    "map",
+    "reduce",
+    "decorator"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bumpup": "^0.6.2",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-jscs": "^1.6.0",
+    "grunt-karma": "^0.10.1",
+    "grunt-mocha-protractor": "^0.5.2",
+    "grunt-webpack": "^1.0.7",
+    "jshint-stylish": "^1.0.0",
+    "karma": "^0.12.25",
+    "karma-chai-plugins": "^0.5.0",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-mocha": "^0.1.9",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "lodash-cli": "^3.7.0",
+    "mocha": "^2.0.1",
+    "semver": "^4.1.0",
+    "shelljs": "^0.4.0",
+    "uglifyify": "^3.0.1",
+    "webpack": "^1.3.2-beta9"
+  },
+  "scripts": {
+    "start": "grunt",
+    "test": "grunt test"
+  }
+}
